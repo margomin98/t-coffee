@@ -1,25 +1,18 @@
-#!/usr/bin/env sh
-
-# abort on errors
+发生错误时中止脚本
 set -e
 
-# build
+# 构建
 npm run build
 
-# navigate into the build output directory
+# cd 到构建输出的目录下 
 cd dist
-
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
 
 git init
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+# 部署到 https://<USERNAME>.github.io/<REPO>
+git push -f git@github.com:<margomin98>/<T-Coffee>.git master:gh-pages
 
 cd -
+
