@@ -25,9 +25,11 @@
       <div v-for="item in paginatedItems" class='col' :key="item.id">
         <div>
         <p>Name : {{ item.name }}</p>
-        <p>Website : <a :href="item.url" target="_blank">{{ item.url }}</a></p>
         <p>Address : {{ item.address }}</p>
         <p class="city">City : {{ item.city }}</p>
+      </div>
+      <div class="shop_link">
+       <a :href="item.url" target="_blank"><p>前往咖啡廳 >> </p></a>
       </div>
     </div>
  </div>
@@ -255,6 +257,18 @@ margin-bottom: 40px;
     word-wrap: break-word;
   overflow: hidden; 
   background: #7c65411c;
+  display: flex;
+  justify-content: space-between;
+  .shop_link{
+    display: flex;
+    align-items: end;
+    p{
+      margin-bottom: 0;
+    font-weight: 700;
+    white-space: nowrap;
+    color:#765738
+    }
+  }
     a{
       text-decoration: none;
     color: black;
@@ -365,6 +379,18 @@ font-family: 'Source Serif 4', serif;
     word-wrap: break-word;
   overflow: hidden; 
 margin:unset;
+display: flex;
+justify-content: space-between;
+.shop_link{
+    display: flex;
+    align-items: end;
+    p{
+      margin-bottom: 0;
+    font-weight: 700;
+    white-space: nowrap;
+    color:#765738
+    }
+  }
     a{
       text-decoration: none;
     color: black;
@@ -468,6 +494,18 @@ font-family: 'Source Serif 4', serif;
     word-wrap: break-word;
   overflow: hidden; 
   margin:20px 0;
+  display: flex;
+  justify-content: space-between;
+  .shop_link{
+    display: flex;
+    align-items: end;
+    p{
+      margin-bottom: 0;
+    font-weight: 700;
+    white-space: nowrap;
+    color:#765738
+    }
+  }
     a{
       text-decoration: none;
     color: black;

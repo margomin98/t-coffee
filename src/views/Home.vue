@@ -154,13 +154,13 @@
 <div class="list_enter_link">
  <div class="title_wrap">
   <div class="spark1">
-  <!-- <img src="../assets/img/spark.gif" alt="spark icon"> -->
+  <img src="../assets/img/spark.gif" alt="spark icon">
 </div>
   <p class="title">
     查看全臺咖啡廳
   </p>
   <div class="spark2">
-  <!-- <img src="../assets/img/spark.gif" alt="spark icon"> -->
+  <img src="../assets/img/spark.gif" alt="spark icon">
 </div>
 </div>
   <p class="link">
