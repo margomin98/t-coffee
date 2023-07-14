@@ -155,7 +155,7 @@
     fetchItems() {
      
       axios
-        .get('https://cors-anywhere.herokuapp.com/https://cafenomad.tw/api/v1.2/cafes')
+        .get('https://cafenomad.tw/api/v1.2/cafes')
         .then(response => {
           this.items = response.data;
         })

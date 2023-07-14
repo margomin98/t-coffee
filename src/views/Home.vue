@@ -218,7 +218,7 @@ export default {
                 padding:5,
                 color: "white",
                 font:{
-                  size:25,
+                  size:30,
                   family: 'chenyuluoyan'
                 }
 
