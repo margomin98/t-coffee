@@ -22,11 +22,14 @@ export default{
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500&display=swap");
-
-#app{
-  font-family: 'Source Serif 4', serif;
+@font-face {
+  font-family: 'chenyuluoyan';
+  src:url('./assets/fonts/ChenYuluoyan.ttf') format('svg');
+  font-weight: normal;
+font-style: normal;
 }
 #app{
+  font-family: 'Source Serif 4', serif;
   background-color: #DBCFBD;
 }
 </style>
