@@ -1,7 +1,7 @@
 <template>
 
   <div>
-    <!-- City list dropdown -->
+
     <div class="city_list">
       <div class="title_wrap">
       <h1 class="title">
@@ -17,8 +17,7 @@
       </select>
     </div>
  
- 
-    <!-- Display filtered items -->
+
     <div class="list_result">
       <!-- 根據paginatedItems的設定來顯示一頁的店數量 -->
       <div class="grid">
@@ -34,7 +33,7 @@
     </div>
  </div>
  </div>
-    <!-- Pagination -->
+
 
   <div class="pagination">
     <div class="numbers">
@@ -149,14 +148,14 @@
   },
   },
   mounted() {
-    // Fetches the items data from the API when the component is mounted
+ 
     this.fetchItems();
   },
   methods: {
     fetchItems() {
-      // Fetches the items data from the API using axios
+     
       axios
-        .get('https://cafenomad.tw/api/v1.2/cafes')
+        .get('https://cors-anywhere.herokuapp.com/https://cafenomad.tw/api/v1.2/cafes')
         .then(response => {
           this.items = response.data;
         })
@@ -173,13 +172,13 @@
 }
 ,
     previousPage() {
-      // Decrements the current page number if not on the first page
+      //如果不在第一頁，就減少頁數
       if (this.currentPage > 1) {
         this.currentPage--;
       }
     },
     nextPage() {
-      // Increments the current page number if not on the last page
+   //增加頁數，如果不在第一頁
       if (this.currentPage < this.totalPages) {
         this.currentPage++;
       }
@@ -187,7 +186,7 @@
     goToPage(pageNumber) {
     this.currentPage = pageNumber;
     setTimeout(() => {
-      window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top of the page
+      window.scrollTo({ top: 0, behavior: 'smooth' }); 
     }, 100);
   },
   // ...
@@ -195,7 +194,7 @@
   watch: {
     //如果selectedcity的數值有改變的話，就重新設定頁面回到第一頁
     selectedCity() {
-      this.currentPage = 1; // Reset the current page to 1
+      this.currentPage = 1; 
     },
   },
  };
