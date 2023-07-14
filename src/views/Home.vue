@@ -218,7 +218,7 @@ export default {
                 padding:5,
                 color: "white",
                 font:{
-                  size:35,
+                  size:25,
                   family: 'chenyuluoyan'
                 }
 
@@ -1177,13 +1177,13 @@ text-align: center;
 h1{
   position: relative;
     z-index: 2;
-    font-size: 65px;
+    font-size: 55px;
  font-family: 'chenyuluoyan';
 }
 }
 .underline{
   position: absolute;
-    bottom: 10px;
+    bottom:3px;
     z-index: 1;
     left: 0;
     right: 0;
@@ -1195,7 +1195,7 @@ img{
 
 p{
   font-family: "chenyuluoyan";
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
 }
 }
@@ -1364,7 +1364,7 @@ background-image: url('../assets/img/footer_xs.jpg');
 .title{
  h1{
  font-family: 'chenyuluoyan';
- font-size:40px;
+ font-size:35px;
 }
 }
 .img_row{
