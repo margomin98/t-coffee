@@ -32,7 +32,7 @@
 
   <div class="bg">
     <div class="bean_drop d-xl-block d-lg-block d-md-block d-none">
-    <img v-prlx.mobile="{ preserveInitialPosition: false }" src="../assets/img/coffee_drop_2.png" alt="coffee drop demonstrate">
+    <img v-prlx.mobile src="../assets/img/coffee_drop_2.png" alt="coffee drop demonstrate">
   </div>
   </div>
 </b-col>
