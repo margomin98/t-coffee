@@ -32,7 +32,7 @@
 
   <div class="bg">
     <div class="bean_drop d-xl-block d-lg-block d-md-block d-none">
-    <img v-prlx="{ preserveInitialPosition: false }" src="../assets/img/coffee_drop_2.png" alt="coffee drop demonstrate">
+    <img v-prlx.mobile="{ preserveInitialPosition: false }" src="../assets/img/coffee_drop_2.png" alt="coffee drop demonstrate">
   </div>
   </div>
 </b-col>
@@ -182,7 +182,7 @@ import ChartDeferred from 'chartjs-plugin-deferred';
 import countTo from 'vue-count-to';
 
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   //later for add string through prop
   
   components:{countTo,Bar},
@@ -1226,7 +1226,7 @@ justify-content: end;
 .bean_right{
  position: relative;
  img{
-  left: calc(100% - 125%);
+  left: calc(100% - 118%);
     right: 0;
     top: calc(100% - 50px);
     scale: 0.60;
@@ -1460,7 +1460,7 @@ height: 500px;
    text-decoration: none;
    font-weight: 700;
    font-family: 'chenyuluoyan';
-   font-size: 30px;
+   font-size: 25px;
 
  }
  }
@@ -1472,7 +1472,7 @@ height: 500px;
  position: relative;
  .spark1{
   position: absolute;
-    left: -6%;
+    left:calc(100% - 101%);
     bottom: 27%;
     rotate: 22deg;
    img{
@@ -1482,8 +1482,8 @@ height: 500px;
  }
  .spark2{
    position: absolute;
-   right: -5%;
-    top: -16%;
+   right:calc(100% - 101%);
+    top: -3%;
  rotate: 347deg;
    img{
    
@@ -1491,7 +1491,7 @@ height: 500px;
    }
  }
      p.title{
-     font-size:50px;
+     font-size:40px;
      color:white;
      font-family: 'chenyuluoyan';
    }
