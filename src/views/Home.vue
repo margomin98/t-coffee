@@ -38,7 +38,7 @@
 </b-col>
   <b-col col class="right" xl="7" lg="7" md="12" sm="12">
     <div class="title">
-  <div class="h1"><h1>咖啡的歷史</h1></div>
+  <div class="h1"><h1>咖啡歷史</h1></div>
 <div class="underline">
   <img src="../assets/img/underline.png" alt="title underline">
 </div>
