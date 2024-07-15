@@ -151,7 +151,7 @@
 <b-container fluid class="pt5 g-0" v-prlx.background="{ speed:0.8 }">
 <div class="overlay">
 </div>
-<div class="list_enter_link">
+<!-- <div class="list_enter_link">
  <div class="title_wrap">
   <div class="spark1">
   <img src="../assets/img/spark.gif" alt="spark icon">
@@ -168,7 +168,7 @@
 查看咖啡廳
   </router-link>
   </p>
-</div>
+</div> -->
 </b-container>
 
   </div>

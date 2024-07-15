@@ -11,7 +11,7 @@
              
              <div class="header_inner_link" v-show="showham">
       <router-link to="/">Home</router-link>|
-    <router-link to="/list">Coffee Shop List</router-link>
+    <!-- <router-link to="/list">Coffee Shop List</router-link> -->
   </div>
    <div class="menu_ham" @touchstart="showhamxs()" @touchend="closehamxs()">
               <div class="line"></div>
